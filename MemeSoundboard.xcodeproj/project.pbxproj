@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553360B8201E6C70000A85BA /* illuminati.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360B7201E6C70000A85BA /* illuminati.wav */; };
 		55C456E12010090D00639369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E02010090D00639369 /* AppDelegate.swift */; };
 		55C456E32010090D00639369 /* Screen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E22010090D00639369 /* Screen1VC.swift */; };
 		55C456E62010090D00639369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C456E42010090D00639369 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553360B7201E6C70000A85BA /* illuminati.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = illuminati.wav; sourceTree = "<group>"; };
 		55C456DD2010090D00639369 /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C456E02010090D00639369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C456E22010090D00639369 /* Screen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1VC.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		55C456F520100CFC00639369 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				553360B7201E6C70000A85BA /* illuminati.wav */,
 				55C45704201024C700639369 /* thuglife.wav */,
 				55C45702201024C200639369 /* pranked.wav */,
 				55C4570020101EED00639369 /* nani.wav */,
@@ -166,6 +169,7 @@
 				55C4570120101EED00639369 /* nani.wav in Resources */,
 				55C456E82010090D00639369 /* Assets.xcassets in Resources */,
 				55C456E62010090D00639369 /* Main.storyboard in Resources */,
+				553360B8201E6C70000A85BA /* illuminati.wav in Resources */,
 				55C45703201024C200639369 /* pranked.wav in Resources */,
 				55C456FD20101ACF00639369 /* holdup.wav in Resources */,
 				55C456FF20101EE700639369 /* omae.wav in Resources */,
