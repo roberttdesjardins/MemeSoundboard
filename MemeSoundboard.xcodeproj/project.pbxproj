@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		553360B8201E6C70000A85BA /* illuminati.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360B7201E6C70000A85BA /* illuminati.wav */; };
 		553360BA201E79A5000A85BA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553360B9201E79A5000A85BA /* PageViewController.swift */; };
+		553360BF201E96C6000A85BA /* fine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360BB201E96C6000A85BA /* fine.wav */; };
+		553360C0201E96C6000A85BA /* gotcha.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360BC201E96C6000A85BA /* gotcha.wav */; };
+		553360C1201E96C6000A85BA /* run.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360BD201E96C6000A85BA /* run.wav */; };
+		553360C2201E96C6000A85BA /* kimkardashian.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360BE201E96C6000A85BA /* kimkardashian.wav */; };
+		553360C4201E988C000A85BA /* Screen2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553360C3201E988C000A85BA /* Screen2VC.swift */; };
 		55C456E12010090D00639369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E02010090D00639369 /* AppDelegate.swift */; };
 		55C456E32010090D00639369 /* Screen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E22010090D00639369 /* Screen1VC.swift */; };
 		55C456E62010090D00639369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C456E42010090D00639369 /* Main.storyboard */; };
@@ -26,6 +31,11 @@
 /* Begin PBXFileReference section */
 		553360B7201E6C70000A85BA /* illuminati.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = illuminati.wav; sourceTree = "<group>"; };
 		553360B9201E79A5000A85BA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		553360BB201E96C6000A85BA /* fine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fine.wav; sourceTree = "<group>"; };
+		553360BC201E96C6000A85BA /* gotcha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotcha.wav; sourceTree = "<group>"; };
+		553360BD201E96C6000A85BA /* run.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = run.wav; sourceTree = "<group>"; };
+		553360BE201E96C6000A85BA /* kimkardashian.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kimkardashian.wav; sourceTree = "<group>"; };
+		553360C3201E988C000A85BA /* Screen2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2VC.swift; sourceTree = "<group>"; };
 		55C456DD2010090D00639369 /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C456E02010090D00639369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C456E22010090D00639369 /* Screen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1VC.swift; sourceTree = "<group>"; };
@@ -57,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				55C456E22010090D00639369 /* Screen1VC.swift */,
+				553360C3201E988C000A85BA /* Screen2VC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -95,6 +106,10 @@
 		55C456F520100CFC00639369 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				553360BB201E96C6000A85BA /* fine.wav */,
+				553360BC201E96C6000A85BA /* gotcha.wav */,
+				553360BE201E96C6000A85BA /* kimkardashian.wav */,
+				553360BD201E96C6000A85BA /* run.wav */,
 				553360B7201E6C70000A85BA /* illuminati.wav */,
 				55C45704201024C700639369 /* thuglife.wav */,
 				55C45702201024C200639369 /* pranked.wav */,
@@ -168,10 +183,14 @@
 			files = (
 				55C45705201024C700639369 /* thuglife.wav in Resources */,
 				55C456FB201019B700639369 /* smokeweed.wav in Resources */,
+				553360C2201E96C6000A85BA /* kimkardashian.wav in Resources */,
+				553360C1201E96C6000A85BA /* run.wav in Resources */,
 				55C456EB2010090D00639369 /* LaunchScreen.storyboard in Resources */,
+				553360C0201E96C6000A85BA /* gotcha.wav in Resources */,
 				55C4570120101EED00639369 /* nani.wav in Resources */,
 				55C456E82010090D00639369 /* Assets.xcassets in Resources */,
 				55C456E62010090D00639369 /* Main.storyboard in Resources */,
+				553360BF201E96C6000A85BA /* fine.wav in Resources */,
 				553360B8201E6C70000A85BA /* illuminati.wav in Resources */,
 				55C45703201024C200639369 /* pranked.wav in Resources */,
 				55C456FD20101ACF00639369 /* holdup.wav in Resources */,
@@ -188,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				553360BA201E79A5000A85BA /* PageViewController.swift in Sources */,
+				553360C4201E988C000A85BA /* Screen2VC.swift in Sources */,
 				55C456E32010090D00639369 /* Screen1VC.swift in Sources */,
 				55C456E12010090D00639369 /* AppDelegate.swift in Sources */,
 			);
