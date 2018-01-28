@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class Screen1VC: UIViewController {
     
     var player: AVAudioPlayer!
 
