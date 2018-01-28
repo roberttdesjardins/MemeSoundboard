@@ -12,9 +12,11 @@ import AVFoundation
 class Screen1VC: UIViewController {
     
     var player: AVAudioPlayer!
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     @IBAction func doYouKnowDaWaeBtnPressed(_ sender: Any) {
@@ -52,6 +54,19 @@ class Screen1VC: UIViewController {
         }
         player.play()
     }
+    
+    @IBAction func illuminatiBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "illuminati", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
     
     @IBAction func omaeBtnPressed(_ sender: Any) {
         let path = Bundle.main.path(forResource: "omae", ofType: "wav")!

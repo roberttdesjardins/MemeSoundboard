@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		553360B8201E6C70000A85BA /* illuminati.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360B7201E6C70000A85BA /* illuminati.wav */; };
+		553360BA201E79A5000A85BA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553360B9201E79A5000A85BA /* PageViewController.swift */; };
 		55C456E12010090D00639369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E02010090D00639369 /* AppDelegate.swift */; };
 		55C456E32010090D00639369 /* Screen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E22010090D00639369 /* Screen1VC.swift */; };
 		55C456E62010090D00639369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C456E42010090D00639369 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		553360B7201E6C70000A85BA /* illuminati.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = illuminati.wav; sourceTree = "<group>"; };
+		553360B9201E79A5000A85BA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		55C456DD2010090D00639369 /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C456E02010090D00639369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C456E22010090D00639369 /* Screen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1VC.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				55C456E72010090D00639369 /* Assets.xcassets */,
 				55C456E92010090D00639369 /* LaunchScreen.storyboard */,
 				55C456EC2010090D00639369 /* Info.plist */,
+				553360B9201E79A5000A85BA /* PageViewController.swift */,
 			);
 			path = MemeSoundboard;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553360BA201E79A5000A85BA /* PageViewController.swift in Sources */,
 				55C456E32010090D00639369 /* Screen1VC.swift in Sources */,
 				55C456E12010090D00639369 /* AppDelegate.swift in Sources */,
 			);
