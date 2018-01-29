@@ -309,13 +309,50 @@
                     <view key="view" contentMode="scaleToFill" id="qdq-bz-u6y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mat-sw-s5Z">
+                                <rect key="frame" x="71" y="40" width="233" height="112"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="tZg-oF-ytB">
+                                        <rect key="frame" x="0.0" y="0.0" width="233" height="112"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gww-kd-UKT">
+                                                <rect key="frame" x="0.0" y="38" width="71" height="36"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                                <state key="normal" title="OH SHIT">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ohshitBtnPressed:" destination="xLX-V7-O8M" eventType="touchUpInside" id="z5w-IM-Yiz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdh-Re-wRI">
+                                                <rect key="frame" x="121" y="0.0" width="112" height="112"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="112" id="Cai-F3-0Wt"/>
+                                                    <constraint firstAttribute="width" constant="112" id="cMP-0x-yTM"/>
+                                                </constraints>
+                                                <state key="normal" image="noice"/>
+                                                <connections>
+                                                    <action selector="noiceBtnPressed:" destination="xLX-V7-O8M" eventType="touchUpInside" id="nDp-bN-ejb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mat-sw-s5Z" firstAttribute="centerX" secondItem="qdq-bz-u6y" secondAttribute="centerX" id="DdJ-xj-0l1"/>
+                            <constraint firstItem="mat-sw-s5Z" firstAttribute="top" secondItem="XWL-At-u5H" secondAttribute="top" constant="20" id="Hha-8r-rwy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XWL-At-u5H"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wMg-h0-0D2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1507" y="34"/>
+            <point key="canvasLocation" x="1506.4000000000001" y="33.733133433283363"/>
         </scene>
     </scenes>
     <resources>
@@ -327,6 +364,7 @@
         <image name="heff" width="515" height="380"/>
         <image name="kimkardashian" width="625" height="415"/>
         <image name="nani" width="480" height="360"/>
+        <image name="noice" width="433" height="431"/>
         <image name="omae" width="640" height="432"/>
         <image name="pranked" width="1920" height="1080"/>
         <image name="run" width="300" height="300"/>

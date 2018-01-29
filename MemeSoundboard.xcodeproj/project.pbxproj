@@ -19,6 +19,8 @@
 		553360D7201FC9EE000A85BA /* fine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360D4201FC9EE000A85BA /* fine.wav */; };
 		553360D8201FC9EE000A85BA /* gotcha.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360D5201FC9EE000A85BA /* gotcha.wav */; };
 		553360DA201FCA7C000A85BA /* yeah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360D9201FCA7C000A85BA /* yeah.wav */; };
+		553360DD201FD28A000A85BA /* ohshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360DB201FD289000A85BA /* ohshit.wav */; };
+		553360E2201FD48D000A85BA /* noice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360E1201FD48D000A85BA /* noice.wav */; };
 		55C456E12010090D00639369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E02010090D00639369 /* AppDelegate.swift */; };
 		55C456E32010090D00639369 /* Screen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E22010090D00639369 /* Screen1VC.swift */; };
 		55C456E62010090D00639369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C456E42010090D00639369 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		553360D4201FC9EE000A85BA /* fine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fine.wav; path = "../../../../../Meme Soundboard/Sounds/fine.wav"; sourceTree = "<group>"; };
 		553360D5201FC9EE000A85BA /* gotcha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gotcha.wav; path = "../../../../../Meme Soundboard/Sounds/gotcha.wav"; sourceTree = "<group>"; };
 		553360D9201FCA7C000A85BA /* yeah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yeah.wav; path = "../../../../../Meme Soundboard/Sounds/yeah.wav"; sourceTree = "<group>"; };
+		553360DB201FD289000A85BA /* ohshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohshit.wav; sourceTree = "<group>"; };
+		553360E1201FD48D000A85BA /* noice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = noice.wav; path = "../../../../../Meme Soundboard/Sounds/noice.wav"; sourceTree = "<group>"; };
 		55C456DD2010090D00639369 /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C456E02010090D00639369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C456E22010090D00639369 /* Screen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1VC.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 		55C456F520100CFC00639369 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				553360E1201FD48D000A85BA /* noice.wav */,
+				553360DB201FD289000A85BA /* ohshit.wav */,
 				553360D9201FCA7C000A85BA /* yeah.wav */,
 				553360D4201FC9EE000A85BA /* fine.wav */,
 				553360D5201FC9EE000A85BA /* gotcha.wav */,
@@ -201,6 +207,7 @@
 				55C45705201024C700639369 /* thuglife.wav in Resources */,
 				55C456FB201019B700639369 /* smokeweed.wav in Resources */,
 				553360C1201E96C6000A85BA /* run.wav in Resources */,
+				553360DD201FD28A000A85BA /* ohshit.wav in Resources */,
 				55C456EB2010090D00639369 /* LaunchScreen.storyboard in Resources */,
 				553360D7201FC9EE000A85BA /* fine.wav in Resources */,
 				55C4570120101EED00639369 /* nani.wav in Resources */,
@@ -210,6 +217,7 @@
 				55C456E62010090D00639369 /* Main.storyboard in Resources */,
 				553360B8201E6C70000A85BA /* illuminati.wav in Resources */,
 				55C45703201024C200639369 /* pranked.wav in Resources */,
+				553360E2201FD48D000A85BA /* noice.wav in Resources */,
 				553360CB201FC155000A85BA /* stopit.wav in Resources */,
 				55C456FD20101ACF00639369 /* holdup.wav in Resources */,
 				553360CA201FC155000A85BA /* heff.wav in Resources */,
