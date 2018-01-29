@@ -65,7 +65,50 @@ class Screen2VC: UIViewController {
         }
         player.play()
     }
-    
+    @IBAction func fallenBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "fallen", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    @IBAction func yeahBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "yeah", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    @IBAction func stopitBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "stopit", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    @IBAction func heffBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "heff", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
     
     
     override func didReceiveMemoryWarning() {
