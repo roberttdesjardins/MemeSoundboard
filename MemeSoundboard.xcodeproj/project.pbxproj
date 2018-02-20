@@ -21,6 +21,9 @@
 		553360DA201FCA7C000A85BA /* yeah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360D9201FCA7C000A85BA /* yeah.wav */; };
 		553360DD201FD28A000A85BA /* ohshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360DB201FD289000A85BA /* ohshit.wav */; };
 		553360E2201FD48D000A85BA /* noice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360E1201FD48D000A85BA /* noice.wav */; };
+		553360E4201FD576000A85BA /* pranked.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360E3201FD576000A85BA /* pranked.wav */; };
+		55368FAA2022857A00B60DDC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55368FA92022857A00B60DDC /* StoreKit.framework */; };
+		5582D8EF203B7AB60093EAB7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582D8EE203B7AB60093EAB7 /* GoogleMobileAds.framework */; };
 		55C456E12010090D00639369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E02010090D00639369 /* AppDelegate.swift */; };
 		55C456E32010090D00639369 /* Screen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E22010090D00639369 /* Screen1VC.swift */; };
 		55C456E62010090D00639369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C456E42010090D00639369 /* Main.storyboard */; };
@@ -31,7 +34,6 @@
 		55C456FD20101ACF00639369 /* holdup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C456FC20101ACF00639369 /* holdup.wav */; };
 		55C456FF20101EE700639369 /* omae.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C456FE20101EE700639369 /* omae.wav */; };
 		55C4570120101EED00639369 /* nani.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C4570020101EED00639369 /* nani.wav */; };
-		55C45703201024C200639369 /* pranked.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C45702201024C200639369 /* pranked.wav */; };
 		55C45705201024C700639369 /* thuglife.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C45704201024C700639369 /* thuglife.wav */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,9 @@
 		553360D9201FCA7C000A85BA /* yeah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yeah.wav; path = "../../../../../Meme Soundboard/Sounds/yeah.wav"; sourceTree = "<group>"; };
 		553360DB201FD289000A85BA /* ohshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohshit.wav; sourceTree = "<group>"; };
 		553360E1201FD48D000A85BA /* noice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = noice.wav; path = "../../../../../Meme Soundboard/Sounds/noice.wav"; sourceTree = "<group>"; };
+		553360E3201FD576000A85BA /* pranked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pranked.wav; sourceTree = "<group>"; };
+		55368FA92022857A00B60DDC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5582D8EE203B7AB60093EAB7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.28.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		55C456DD2010090D00639369 /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C456E02010090D00639369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C456E22010090D00639369 /* Screen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1VC.swift; sourceTree = "<group>"; };
@@ -62,7 +67,6 @@
 		55C456FC20101ACF00639369 /* holdup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = holdup.wav; sourceTree = "<group>"; };
 		55C456FE20101EE700639369 /* omae.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = omae.wav; sourceTree = "<group>"; };
 		55C4570020101EED00639369 /* nani.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nani.wav; sourceTree = "<group>"; };
-		55C45702201024C200639369 /* pranked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pranked.wav; sourceTree = "<group>"; };
 		55C45704201024C700639369 /* thuglife.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thuglife.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5582D8EF203B7AB60093EAB7 /* GoogleMobileAds.framework in Frameworks */,
+				55368FAA2022857A00B60DDC /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,11 +93,21 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		55368FA82022857A00B60DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5582D8EE203B7AB60093EAB7 /* GoogleMobileAds.framework */,
+				55368FA92022857A00B60DDC /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55C456D42010090D00639369 = {
 			isa = PBXGroup;
 			children = (
 				55C456DF2010090D00639369 /* MemeSoundboard */,
 				55C456DE2010090D00639369 /* Products */,
+				55368FA82022857A00B60DDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +137,7 @@
 		55C456F520100CFC00639369 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				553360E3201FD576000A85BA /* pranked.wav */,
 				553360E1201FD48D000A85BA /* noice.wav */,
 				553360DB201FD289000A85BA /* ohshit.wav */,
 				553360D9201FCA7C000A85BA /* yeah.wav */,
@@ -133,7 +150,6 @@
 				553360BD201E96C6000A85BA /* run.wav */,
 				553360B7201E6C70000A85BA /* illuminati.wav */,
 				55C45704201024C700639369 /* thuglife.wav */,
-				55C45702201024C200639369 /* pranked.wav */,
 				55C4570020101EED00639369 /* nani.wav */,
 				55C456FE20101EE700639369 /* omae.wav */,
 				55C456FC20101ACF00639369 /* holdup.wav */,
@@ -176,6 +192,11 @@
 					55C456DC2010090D00639369 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -210,13 +231,13 @@
 				553360DD201FD28A000A85BA /* ohshit.wav in Resources */,
 				55C456EB2010090D00639369 /* LaunchScreen.storyboard in Resources */,
 				553360D7201FC9EE000A85BA /* fine.wav in Resources */,
+				553360E4201FD576000A85BA /* pranked.wav in Resources */,
 				55C4570120101EED00639369 /* nani.wav in Resources */,
 				55C456E82010090D00639369 /* Assets.xcassets in Resources */,
 				553360D8201FC9EE000A85BA /* gotcha.wav in Resources */,
 				553360DA201FCA7C000A85BA /* yeah.wav in Resources */,
 				55C456E62010090D00639369 /* Main.storyboard in Resources */,
 				553360B8201E6C70000A85BA /* illuminati.wav in Resources */,
-				55C45703201024C200639369 /* pranked.wav in Resources */,
 				553360E2201FD48D000A85BA /* noice.wav in Resources */,
 				553360CB201FC155000A85BA /* stopit.wav in Resources */,
 				55C456FD20101ACF00639369 /* holdup.wav in Resources */,
@@ -375,9 +396,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2XMQZ2827;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MemeSoundboard",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MemeSoundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Robert-Desjardins.MemeSoundboard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.desjardins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,9 +417,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2XMQZ2827;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MemeSoundboard",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MemeSoundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Robert-Desjardins.MemeSoundboard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.desjardins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

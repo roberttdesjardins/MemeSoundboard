@@ -8,16 +8,32 @@
 
 import UIKit
 import AVFoundation
+import GoogleMobileAds
 
-class Screen1VC: UIViewController {
+class Screen1VC: UIViewController, GADBannerViewDelegate {
     
     var player: AVAudioPlayer!
     
     
+    
+    @IBOutlet weak var bannerView: GADBannerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.rootViewController = self
+        bannerView.load(GADRequest())
+        //Test ads is ca-app-pub-3940256099942544/2934735716
+        bannerView.delegate = self
     }
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        print("adViewDidReceiveAd")
+    }
+    func adView(_ bannerView: GADBannerView,
+                didFailToReceiveAdWithError error: GADRequestError) {
+        print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+    }
+
     
     @IBAction func doYouKnowDaWaeBtnPressed(_ sender: Any) {
         let path = Bundle.main.path(forResource: "doyouknowdawae", ofType: "wav")!
@@ -116,12 +132,15 @@ class Screen1VC: UIViewController {
         player.play()
     }
     
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        player?.stop()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 

@@ -40,6 +40,10 @@ class Screen3VC: UIViewController {
         player.play()
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        player?.stop()
+    }
+    
  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

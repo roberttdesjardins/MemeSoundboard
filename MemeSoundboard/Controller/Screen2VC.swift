@@ -14,7 +14,6 @@ class Screen2VC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     @IBAction func kimkardashianBtnPressed(_ sender: Any) {
@@ -110,6 +109,9 @@ class Screen2VC: UIViewController {
         player.play()
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        player?.stop()
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
