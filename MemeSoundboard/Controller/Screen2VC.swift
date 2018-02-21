@@ -17,7 +17,7 @@ class Screen2VC: UIViewController, GADBannerViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-3719313346160193/1926630270"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         //Test ads is ca-app-pub-3940256099942544/2934735716
