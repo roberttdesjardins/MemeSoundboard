@@ -35,8 +35,58 @@ class Screen3VC: UIViewController, GADBannerViewDelegate {
         }
         player.play()
     }
-    @IBAction func noiceBtnPressed(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "noice", ofType: "wav")!
+
+    
+    @IBAction func smokeWeedBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "smokeweed", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func thugLifeBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "thuglife", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func omaeBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "omae", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func naniBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "nani", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func snoopDogBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "holdup", ofType: "wav")!
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)

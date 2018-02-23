@@ -11,10 +11,7 @@ import AVFoundation
 import GoogleMobileAds
 
 class Screen1VC: UIViewController, GADBannerViewDelegate {
-    
     var player: AVAudioPlayer!
-    
-    
     
     @IBOutlet weak var bannerView: GADBannerView!
     
@@ -47,29 +44,6 @@ class Screen1VC: UIViewController, GADBannerViewDelegate {
         player.play()
     }
     
-    @IBAction func smokeWeedBtnPressed(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "smokeweed", ofType: "wav")!
-        let url = URL(fileURLWithPath: path)
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            player.prepareToPlay()
-        } catch let error as NSError {
-            print(error.description)
-        }
-        player.play()
-    }
-    
-    @IBAction func snoopDogBtnPressed(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "holdup", ofType: "wav")!
-        let url = URL(fileURLWithPath: path)
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            player.prepareToPlay()
-        } catch let error as NSError {
-            print(error.description)
-        }
-        player.play()
-    }
     
     @IBAction func illuminatiBtnPressed(_ sender: Any) {
         let path = Bundle.main.path(forResource: "illuminati", ofType: "wav")!
@@ -83,30 +57,7 @@ class Screen1VC: UIViewController, GADBannerViewDelegate {
         player.play()
     }
     
-    
-    @IBAction func omaeBtnPressed(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "omae", ofType: "wav")!
-        let url = URL(fileURLWithPath: path)
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            player.prepareToPlay()
-        } catch let error as NSError {
-            print(error.description)
-        }
-        player.play()
-    }
-    
-    @IBAction func naniBtnPressed(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "nani", ofType: "wav")!
-        let url = URL(fileURLWithPath: path)
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            player.prepareToPlay()
-        } catch let error as NSError {
-            print(error.description)
-        }
-        player.play()
-    }
+
     
     @IBAction func prankedBtnPressed(_ sender: Any) {
         let path = Bundle.main.path(forResource: "pranked", ofType: "wav")!
@@ -120,8 +71,8 @@ class Screen1VC: UIViewController, GADBannerViewDelegate {
         player.play()
     }
     
-    @IBAction func thugLifeBtnPressed(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "thuglife", ofType: "wav")!
+    @IBAction func noiceBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "noice", ofType: "wav")!
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
@@ -131,6 +82,55 @@ class Screen1VC: UIViewController, GADBannerViewDelegate {
         }
         player.play()
     }
+    
+    @IBAction func wednesdayBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "wednesday", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func okayBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "okay", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func hitmarkerBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "hitmarker", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func airhornBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "airhorn", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
     
     
     override func viewDidDisappear(_ animated: Bool) {

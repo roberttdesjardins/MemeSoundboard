@@ -18,6 +18,23 @@
 		553360DD201FD28A000A85BA /* ohshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360DB201FD289000A85BA /* ohshit.wav */; };
 		553360E4201FD576000A85BA /* pranked.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553360E3201FD576000A85BA /* pranked.wav */; };
 		55368FAA2022857A00B60DDC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55368FA92022857A00B60DDC /* StoreKit.framework */; };
+		553B1E2A203F81AC00CFC009 /* wednesday.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E27203F81AC00CFC009 /* wednesday.wav */; };
+		553B1E2B203F81AC00CFC009 /* ohmygosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E28203F81AC00CFC009 /* ohmygosh.wav */; };
+		553B1E2D203F81CA00CFC009 /* okay.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E2C203F81CA00CFC009 /* okay.wav */; };
+		553B1E31203F81D800CFC009 /* pokemon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E2E203F81D800CFC009 /* pokemon.wav */; };
+		553B1E32203F81D800CFC009 /* donethis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E2F203F81D800CFC009 /* donethis.wav */; };
+		553B1E33203F81D800CFC009 /* hellomf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E30203F81D800CFC009 /* hellomf.wav */; };
+		553B1E35203F833800CFC009 /* Screen4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B1E34203F833800CFC009 /* Screen4VC.swift */; };
+		553B1E38203F87D700CFC009 /* airhorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E36203F87D700CFC009 /* airhorn.wav */; };
+		553B1E39203F87D700CFC009 /* hitmarker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E37203F87D700CFC009 /* hitmarker.wav */; };
+		553B1E42203F926D00CFC009 /* wombo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E3A203F926A00CFC009 /* wombo.wav */; };
+		553B1E43203F926D00CFC009 /* violin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E3B203F926B00CFC009 /* violin.wav */; };
+		553B1E44203F926D00CFC009 /* triple.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E3C203F926B00CFC009 /* triple.wav */; };
+		553B1E45203F926D00CFC009 /* slap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E3D203F926B00CFC009 /* slap.wav */; };
+		553B1E46203F926D00CFC009 /* recorder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E3E203F926C00CFC009 /* recorder.wav */; };
+		553B1E47203F926D00CFC009 /* damnson.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E3F203F926D00CFC009 /* damnson.wav */; };
+		553B1E48203F926D00CFC009 /* dream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E40203F926D00CFC009 /* dream.wav */; };
+		553B1E49203F926D00CFC009 /* wow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E41203F926D00CFC009 /* wow.wav */; };
 		55819EDB203BAB200072CDC3 /* kimkardashian.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDA203BAB200072CDC3 /* kimkardashian.wav */; };
 		55819EDD203BAB330072CDC3 /* yeah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDC203BAB330072CDC3 /* yeah.wav */; };
 		55819EE0203BAB5F0072CDC3 /* gotcha.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDE203BAB5E0072CDC3 /* gotcha.wav */; };
@@ -49,6 +66,23 @@
 		553360DB201FD289000A85BA /* ohshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohshit.wav; sourceTree = "<group>"; };
 		553360E3201FD576000A85BA /* pranked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pranked.wav; sourceTree = "<group>"; };
 		55368FA92022857A00B60DDC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		553B1E27203F81AC00CFC009 /* wednesday.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wednesday.wav; sourceTree = "<group>"; };
+		553B1E28203F81AC00CFC009 /* ohmygosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohmygosh.wav; sourceTree = "<group>"; };
+		553B1E2C203F81CA00CFC009 /* okay.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = okay.wav; sourceTree = "<group>"; };
+		553B1E2E203F81D800CFC009 /* pokemon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pokemon.wav; sourceTree = "<group>"; };
+		553B1E2F203F81D800CFC009 /* donethis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = donethis.wav; sourceTree = "<group>"; };
+		553B1E30203F81D800CFC009 /* hellomf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hellomf.wav; sourceTree = "<group>"; };
+		553B1E34203F833800CFC009 /* Screen4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen4VC.swift; sourceTree = "<group>"; };
+		553B1E36203F87D700CFC009 /* airhorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = airhorn.wav; sourceTree = "<group>"; };
+		553B1E37203F87D700CFC009 /* hitmarker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitmarker.wav; sourceTree = "<group>"; };
+		553B1E3A203F926A00CFC009 /* wombo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wombo.wav; sourceTree = "<group>"; };
+		553B1E3B203F926B00CFC009 /* violin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = violin.wav; sourceTree = "<group>"; };
+		553B1E3C203F926B00CFC009 /* triple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = triple.wav; sourceTree = "<group>"; };
+		553B1E3D203F926B00CFC009 /* slap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = slap.wav; sourceTree = "<group>"; };
+		553B1E3E203F926C00CFC009 /* recorder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = recorder.wav; sourceTree = "<group>"; };
+		553B1E3F203F926D00CFC009 /* damnson.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = damnson.wav; sourceTree = "<group>"; };
+		553B1E40203F926D00CFC009 /* dream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dream.wav; sourceTree = "<group>"; };
+		553B1E41203F926D00CFC009 /* wow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wow.wav; sourceTree = "<group>"; };
 		55819EDA203BAB200072CDC3 /* kimkardashian.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kimkardashian.wav; sourceTree = "<group>"; };
 		55819EDC203BAB330072CDC3 /* yeah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yeah.wav; sourceTree = "<group>"; };
 		55819EDE203BAB5E0072CDC3 /* gotcha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotcha.wav; sourceTree = "<group>"; };
@@ -89,6 +123,7 @@
 				55C456E22010090D00639369 /* Screen1VC.swift */,
 				553360C3201E988C000A85BA /* Screen2VC.swift */,
 				553360CD201FC42F000A85BA /* Screen3VC.swift */,
+				553B1E34203F833800CFC009 /* Screen4VC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +172,22 @@
 		55C456F520100CFC00639369 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				553B1E3F203F926D00CFC009 /* damnson.wav */,
+				553B1E40203F926D00CFC009 /* dream.wav */,
+				553B1E3E203F926C00CFC009 /* recorder.wav */,
+				553B1E3D203F926B00CFC009 /* slap.wav */,
+				553B1E3C203F926B00CFC009 /* triple.wav */,
+				553B1E3B203F926B00CFC009 /* violin.wav */,
+				553B1E3A203F926A00CFC009 /* wombo.wav */,
+				553B1E41203F926D00CFC009 /* wow.wav */,
+				553B1E36203F87D700CFC009 /* airhorn.wav */,
+				553B1E37203F87D700CFC009 /* hitmarker.wav */,
+				553B1E2F203F81D800CFC009 /* donethis.wav */,
+				553B1E30203F81D800CFC009 /* hellomf.wav */,
+				553B1E2E203F81D800CFC009 /* pokemon.wav */,
+				553B1E28203F81AC00CFC009 /* ohmygosh.wav */,
+				553B1E2C203F81CA00CFC009 /* okay.wav */,
+				553B1E27203F81AC00CFC009 /* wednesday.wav */,
 				553360E3201FD576000A85BA /* pranked.wav */,
 				553360DB201FD289000A85BA /* ohshit.wav */,
 				55819EDC203BAB330072CDC3 /* yeah.wav */,
@@ -223,26 +274,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553B1E2D203F81CA00CFC009 /* okay.wav in Resources */,
 				553360D2201FC8CD000A85BA /* fallen.wav in Resources */,
+				553B1E39203F87D700CFC009 /* hitmarker.wav in Resources */,
+				553B1E32203F81D800CFC009 /* donethis.wav in Resources */,
 				55C45705201024C700639369 /* thuglife.wav in Resources */,
 				55C456FB201019B700639369 /* smokeweed.wav in Resources */,
 				553360C1201E96C6000A85BA /* run.wav in Resources */,
 				553360DD201FD28A000A85BA /* ohshit.wav in Resources */,
+				553B1E2B203F81AC00CFC009 /* ohmygosh.wav in Resources */,
 				55C456EB2010090D00639369 /* LaunchScreen.storyboard in Resources */,
 				553360E4201FD576000A85BA /* pranked.wav in Resources */,
+				553B1E43203F926D00CFC009 /* violin.wav in Resources */,
 				55C4570120101EED00639369 /* nani.wav in Resources */,
+				553B1E2A203F81AC00CFC009 /* wednesday.wav in Resources */,
 				55C456E82010090D00639369 /* Assets.xcassets in Resources */,
+				553B1E47203F926D00CFC009 /* damnson.wav in Resources */,
+				553B1E45203F926D00CFC009 /* slap.wav in Resources */,
+				553B1E33203F81D800CFC009 /* hellomf.wav in Resources */,
+				553B1E38203F87D700CFC009 /* airhorn.wav in Resources */,
 				55819EE0203BAB5F0072CDC3 /* gotcha.wav in Resources */,
 				55819EE1203BAB5F0072CDC3 /* fine.wav in Resources */,
 				55C456E62010090D00639369 /* Main.storyboard in Resources */,
+				553B1E31203F81D800CFC009 /* pokemon.wav in Resources */,
 				553360B8201E6C70000A85BA /* illuminati.wav in Resources */,
+				553B1E44203F926D00CFC009 /* triple.wav in Resources */,
 				55819EDD203BAB330072CDC3 /* yeah.wav in Resources */,
 				55819EDB203BAB200072CDC3 /* kimkardashian.wav in Resources */,
+				553B1E49203F926D00CFC009 /* wow.wav in Resources */,
 				55819EE3203BAB6B0072CDC3 /* noice.wav in Resources */,
 				553360CB201FC155000A85BA /* stopit.wav in Resources */,
+				553B1E42203F926D00CFC009 /* wombo.wav in Resources */,
 				55C456FD20101ACF00639369 /* holdup.wav in Resources */,
+				553B1E46203F926D00CFC009 /* recorder.wav in Resources */,
 				553360CA201FC155000A85BA /* heff.wav in Resources */,
 				55C456FF20101EE700639369 /* omae.wav in Resources */,
+				553B1E48203F926D00CFC009 /* dream.wav in Resources */,
 				55C456F720100D0500639369 /* doyouknowdawae.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				553360BA201E79A5000A85BA /* PageViewController.swift in Sources */,
+				553B1E35203F833800CFC009 /* Screen4VC.swift in Sources */,
 				553360C4201E988C000A85BA /* Screen2VC.swift in Sources */,
 				553360CE201FC42F000A85BA /* Screen3VC.swift in Sources */,
 				55C456E32010090D00639369 /* Screen1VC.swift in Sources */,
