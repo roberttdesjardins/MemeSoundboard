@@ -35,10 +35,8 @@
 		553B1E47203F926D00CFC009 /* damnson.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E3F203F926D00CFC009 /* damnson.wav */; };
 		553B1E48203F926D00CFC009 /* dream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E40203F926D00CFC009 /* dream.wav */; };
 		553B1E49203F926D00CFC009 /* wow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 553B1E41203F926D00CFC009 /* wow.wav */; };
-		55819EDB203BAB200072CDC3 /* kimkardashian.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDA203BAB200072CDC3 /* kimkardashian.wav */; };
+		553B1E4B2042030D00CFC009 /* Screen5VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B1E4A2042030D00CFC009 /* Screen5VC.swift */; };
 		55819EDD203BAB330072CDC3 /* yeah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDC203BAB330072CDC3 /* yeah.wav */; };
-		55819EE0203BAB5F0072CDC3 /* gotcha.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDE203BAB5E0072CDC3 /* gotcha.wav */; };
-		55819EE1203BAB5F0072CDC3 /* fine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDF203BAB5E0072CDC3 /* fine.wav */; };
 		55819EE3203BAB6B0072CDC3 /* noice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EE2203BAB6A0072CDC3 /* noice.wav */; };
 		5582D8EF203B7AB60093EAB7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582D8EE203B7AB60093EAB7 /* GoogleMobileAds.framework */; };
 		55C456E12010090D00639369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E02010090D00639369 /* AppDelegate.swift */; };
@@ -52,6 +50,28 @@
 		55C456FF20101EE700639369 /* omae.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C456FE20101EE700639369 /* omae.wav */; };
 		55C4570120101EED00639369 /* nani.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C4570020101EED00639369 /* nani.wav */; };
 		55C45705201024C700639369 /* thuglife.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55C45704201024C700639369 /* thuglife.wav */; };
+		55E7ADCB20420FB100419732 /* nope.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADC320420FB000419732 /* nope.wav */; };
+		55E7ADCC20420FB100419732 /* donethis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADC420420FB000419732 /* donethis.wav */; };
+		55E7ADCD20420FB100419732 /* donethat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADC520420FB000419732 /* donethat.wav */; };
+		55E7ADCE20420FB100419732 /* bradberry.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADC620420FB100419732 /* bradberry.wav */; };
+		55E7ADD020420FB100419732 /* trombone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADC820420FB100419732 /* trombone.wav */; };
+		55E7ADD120420FB100419732 /* crickets.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADC920420FB100419732 /* crickets.wav */; };
+		55E7ADD220420FB100419732 /* wrongnumber.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADCA20420FB100419732 /* wrongnumber.wav */; };
+		55E7ADD4204214E900419732 /* spaghet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55E7ADD3204214E900419732 /* spaghet.wav */; };
+		55E7ADD6204218CD00419732 /* Screen6VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7ADD5204218CD00419732 /* Screen6VC.swift */; };
+		55FF3DFD20421C1200FA7185 /* seinfeld.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DF520421C1000FA7185 /* seinfeld.wav */; };
+		55FF3DFE20421C1200FA7185 /* curb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DF620421C1100FA7185 /* curb.wav */; };
+		55FF3DFF20421C1200FA7185 /* hellomf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DF720421C1100FA7185 /* hellomf.wav */; };
+		55FF3E0020421C1200FA7185 /* johncena.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DF820421C1100FA7185 /* johncena.wav */; };
+		55FF3E0120421C1200FA7185 /* pokemon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DF920421C1100FA7185 /* pokemon.wav */; };
+		55FF3E0220421C1200FA7185 /* ohmygosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DFA20421C1100FA7185 /* ohmygosh.wav */; };
+		55FF3E0320421C1200FA7185 /* losinghorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DFB20421C1200FA7185 /* losinghorn.wav */; };
+		55FF3E0420421C1200FA7185 /* rocky.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3DFC20421C1200FA7185 /* rocky.wav */; };
+		55FF3E0620421EA800FA7185 /* kimkardashian.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3E0520421EA800FA7185 /* kimkardashian.wav */; };
+		55FF3E0820421ED200FA7185 /* gotcha.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3E0720421ED200FA7185 /* gotcha.wav */; };
+		55FF3E0A20421EF400FA7185 /* fine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3E0920421EF400FA7185 /* fine.wav */; };
+		55FF3E0C2042258100FA7185 /* vandarkholme.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3E0B2042258100FA7185 /* vandarkholme.wav */; };
+		55FF3E0E2042258500FA7185 /* doit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FF3E0D2042258500FA7185 /* doit.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,10 +103,8 @@
 		553B1E3F203F926D00CFC009 /* damnson.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = damnson.wav; sourceTree = "<group>"; };
 		553B1E40203F926D00CFC009 /* dream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dream.wav; sourceTree = "<group>"; };
 		553B1E41203F926D00CFC009 /* wow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wow.wav; sourceTree = "<group>"; };
-		55819EDA203BAB200072CDC3 /* kimkardashian.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kimkardashian.wav; sourceTree = "<group>"; };
+		553B1E4A2042030D00CFC009 /* Screen5VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen5VC.swift; sourceTree = "<group>"; };
 		55819EDC203BAB330072CDC3 /* yeah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yeah.wav; sourceTree = "<group>"; };
-		55819EDE203BAB5E0072CDC3 /* gotcha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gotcha.wav; sourceTree = "<group>"; };
-		55819EDF203BAB5E0072CDC3 /* fine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fine.wav; sourceTree = "<group>"; };
 		55819EE2203BAB6A0072CDC3 /* noice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noice.wav; sourceTree = "<group>"; };
 		5582D8EE203B7AB60093EAB7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.28.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		55C456DD2010090D00639369 /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +120,28 @@
 		55C456FE20101EE700639369 /* omae.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = omae.wav; sourceTree = "<group>"; };
 		55C4570020101EED00639369 /* nani.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nani.wav; sourceTree = "<group>"; };
 		55C45704201024C700639369 /* thuglife.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thuglife.wav; sourceTree = "<group>"; };
+		55E7ADC320420FB000419732 /* nope.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nope.wav; sourceTree = "<group>"; };
+		55E7ADC420420FB000419732 /* donethis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = donethis.wav; path = "../../../../Meme Soundboard/Sounds/donethis.wav"; sourceTree = "<group>"; };
+		55E7ADC520420FB000419732 /* donethat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = donethat.wav; sourceTree = "<group>"; };
+		55E7ADC620420FB100419732 /* bradberry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bradberry.wav; sourceTree = "<group>"; };
+		55E7ADC820420FB100419732 /* trombone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trombone.wav; sourceTree = "<group>"; };
+		55E7ADC920420FB100419732 /* crickets.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crickets.wav; sourceTree = "<group>"; };
+		55E7ADCA20420FB100419732 /* wrongnumber.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrongnumber.wav; sourceTree = "<group>"; };
+		55E7ADD3204214E900419732 /* spaghet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = spaghet.wav; path = "../../../../Meme Soundboard/Sounds/spaghet.wav"; sourceTree = "<group>"; };
+		55E7ADD5204218CD00419732 /* Screen6VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen6VC.swift; sourceTree = "<group>"; };
+		55FF3DF520421C1000FA7185 /* seinfeld.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seinfeld.wav; sourceTree = "<group>"; };
+		55FF3DF620421C1100FA7185 /* curb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = curb.wav; sourceTree = "<group>"; };
+		55FF3DF720421C1100FA7185 /* hellomf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hellomf.wav; path = "../../../../Meme Soundboard/Sounds/hellomf.wav"; sourceTree = "<group>"; };
+		55FF3DF820421C1100FA7185 /* johncena.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = johncena.wav; sourceTree = "<group>"; };
+		55FF3DF920421C1100FA7185 /* pokemon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pokemon.wav; path = "../../../../Meme Soundboard/Sounds/pokemon.wav"; sourceTree = "<group>"; };
+		55FF3DFA20421C1100FA7185 /* ohmygosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ohmygosh.wav; path = "../../../../Meme Soundboard/Sounds/ohmygosh.wav"; sourceTree = "<group>"; };
+		55FF3DFB20421C1200FA7185 /* losinghorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = losinghorn.wav; sourceTree = "<group>"; };
+		55FF3DFC20421C1200FA7185 /* rocky.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rocky.wav; sourceTree = "<group>"; };
+		55FF3E0520421EA800FA7185 /* kimkardashian.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kimkardashian.wav; path = "../../../../Meme Soundboard/Sounds/kimkardashian.wav"; sourceTree = "<group>"; };
+		55FF3E0720421ED200FA7185 /* gotcha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gotcha.wav; path = "../../../../Meme Soundboard/Sounds/gotcha.wav"; sourceTree = "<group>"; };
+		55FF3E0920421EF400FA7185 /* fine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fine.wav; path = "../../../../Meme Soundboard/Sounds/fine.wav"; sourceTree = "<group>"; };
+		55FF3E0B2042258100FA7185 /* vandarkholme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = vandarkholme.wav; sourceTree = "<group>"; };
+		55FF3E0D2042258500FA7185 /* doit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = doit.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +164,8 @@
 				553360C3201E988C000A85BA /* Screen2VC.swift */,
 				553360CD201FC42F000A85BA /* Screen3VC.swift */,
 				553B1E34203F833800CFC009 /* Screen4VC.swift */,
+				553B1E4A2042030D00CFC009 /* Screen5VC.swift */,
+				55E7ADD5204218CD00419732 /* Screen6VC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,6 +214,24 @@
 		55C456F520100CFC00639369 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				55FF3DF620421C1100FA7185 /* curb.wav */,
+				55FF3DF720421C1100FA7185 /* hellomf.wav */,
+				55FF3E0B2042258100FA7185 /* vandarkholme.wav */,
+				55FF3DF820421C1100FA7185 /* johncena.wav */,
+				55FF3E0D2042258500FA7185 /* doit.wav */,
+				55FF3DFB20421C1200FA7185 /* losinghorn.wav */,
+				55FF3DFA20421C1100FA7185 /* ohmygosh.wav */,
+				55FF3DF920421C1100FA7185 /* pokemon.wav */,
+				55FF3DFC20421C1200FA7185 /* rocky.wav */,
+				55FF3DF520421C1000FA7185 /* seinfeld.wav */,
+				55E7ADD3204214E900419732 /* spaghet.wav */,
+				55E7ADC620420FB100419732 /* bradberry.wav */,
+				55E7ADC920420FB100419732 /* crickets.wav */,
+				55E7ADC520420FB000419732 /* donethat.wav */,
+				55E7ADC420420FB000419732 /* donethis.wav */,
+				55E7ADC320420FB000419732 /* nope.wav */,
+				55E7ADC820420FB100419732 /* trombone.wav */,
+				55E7ADCA20420FB100419732 /* wrongnumber.wav */,
 				553B1E3F203F926D00CFC009 /* damnson.wav */,
 				553B1E40203F926D00CFC009 /* dream.wav */,
 				553B1E3E203F926C00CFC009 /* recorder.wav */,
@@ -190,14 +250,14 @@
 				553B1E27203F81AC00CFC009 /* wednesday.wav */,
 				553360E3201FD576000A85BA /* pranked.wav */,
 				553360DB201FD289000A85BA /* ohshit.wav */,
+				55FF3E0920421EF400FA7185 /* fine.wav */,
 				55819EDC203BAB330072CDC3 /* yeah.wav */,
-				55819EDA203BAB200072CDC3 /* kimkardashian.wav */,
+				55FF3E0520421EA800FA7185 /* kimkardashian.wav */,
 				553360D1201FC8CD000A85BA /* fallen.wav */,
 				553360C6201FC155000A85BA /* heff.wav */,
-				55819EDF203BAB5E0072CDC3 /* fine.wav */,
-				55819EDE203BAB5E0072CDC3 /* gotcha.wav */,
 				553360C7201FC155000A85BA /* stopit.wav */,
 				55819EE2203BAB6A0072CDC3 /* noice.wav */,
+				55FF3E0720421ED200FA7185 /* gotcha.wav */,
 				553360BD201E96C6000A85BA /* run.wav */,
 				553360B7201E6C70000A85BA /* illuminati.wav */,
 				55C45704201024C700639369 /* thuglife.wav */,
@@ -274,16 +334,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FF3E0C2042258100FA7185 /* vandarkholme.wav in Resources */,
 				553B1E2D203F81CA00CFC009 /* okay.wav in Resources */,
+				55E7ADCE20420FB100419732 /* bradberry.wav in Resources */,
 				553360D2201FC8CD000A85BA /* fallen.wav in Resources */,
 				553B1E39203F87D700CFC009 /* hitmarker.wav in Resources */,
 				553B1E32203F81D800CFC009 /* donethis.wav in Resources */,
 				55C45705201024C700639369 /* thuglife.wav in Resources */,
+				55FF3E0220421C1200FA7185 /* ohmygosh.wav in Resources */,
 				55C456FB201019B700639369 /* smokeweed.wav in Resources */,
 				553360C1201E96C6000A85BA /* run.wav in Resources */,
+				55FF3E0E2042258500FA7185 /* doit.wav in Resources */,
+				55E7ADCD20420FB100419732 /* donethat.wav in Resources */,
 				553360DD201FD28A000A85BA /* ohshit.wav in Resources */,
+				55FF3E0020421C1200FA7185 /* johncena.wav in Resources */,
 				553B1E2B203F81AC00CFC009 /* ohmygosh.wav in Resources */,
+				55FF3E0320421C1200FA7185 /* losinghorn.wav in Resources */,
+				55FF3E0620421EA800FA7185 /* kimkardashian.wav in Resources */,
 				55C456EB2010090D00639369 /* LaunchScreen.storyboard in Resources */,
+				55E7ADCB20420FB100419732 /* nope.wav in Resources */,
 				553360E4201FD576000A85BA /* pranked.wav in Resources */,
 				553B1E43203F926D00CFC009 /* violin.wav in Resources */,
 				55C4570120101EED00639369 /* nani.wav in Resources */,
@@ -292,24 +361,33 @@
 				553B1E47203F926D00CFC009 /* damnson.wav in Resources */,
 				553B1E45203F926D00CFC009 /* slap.wav in Resources */,
 				553B1E33203F81D800CFC009 /* hellomf.wav in Resources */,
+				55E7ADD220420FB100419732 /* wrongnumber.wav in Resources */,
 				553B1E38203F87D700CFC009 /* airhorn.wav in Resources */,
-				55819EE0203BAB5F0072CDC3 /* gotcha.wav in Resources */,
-				55819EE1203BAB5F0072CDC3 /* fine.wav in Resources */,
 				55C456E62010090D00639369 /* Main.storyboard in Resources */,
+				55FF3DFD20421C1200FA7185 /* seinfeld.wav in Resources */,
+				55E7ADD020420FB100419732 /* trombone.wav in Resources */,
 				553B1E31203F81D800CFC009 /* pokemon.wav in Resources */,
+				55E7ADD120420FB100419732 /* crickets.wav in Resources */,
 				553360B8201E6C70000A85BA /* illuminati.wav in Resources */,
+				55FF3E0420421C1200FA7185 /* rocky.wav in Resources */,
 				553B1E44203F926D00CFC009 /* triple.wav in Resources */,
 				55819EDD203BAB330072CDC3 /* yeah.wav in Resources */,
-				55819EDB203BAB200072CDC3 /* kimkardashian.wav in Resources */,
+				55E7ADD4204214E900419732 /* spaghet.wav in Resources */,
+				55E7ADCC20420FB100419732 /* donethis.wav in Resources */,
 				553B1E49203F926D00CFC009 /* wow.wav in Resources */,
 				55819EE3203BAB6B0072CDC3 /* noice.wav in Resources */,
 				553360CB201FC155000A85BA /* stopit.wav in Resources */,
+				55FF3E0120421C1200FA7185 /* pokemon.wav in Resources */,
+				55FF3DFE20421C1200FA7185 /* curb.wav in Resources */,
+				55FF3E0820421ED200FA7185 /* gotcha.wav in Resources */,
+				55FF3E0A20421EF400FA7185 /* fine.wav in Resources */,
 				553B1E42203F926D00CFC009 /* wombo.wav in Resources */,
 				55C456FD20101ACF00639369 /* holdup.wav in Resources */,
 				553B1E46203F926D00CFC009 /* recorder.wav in Resources */,
 				553360CA201FC155000A85BA /* heff.wav in Resources */,
 				55C456FF20101EE700639369 /* omae.wav in Resources */,
 				553B1E48203F926D00CFC009 /* dream.wav in Resources */,
+				55FF3DFF20421C1200FA7185 /* hellomf.wav in Resources */,
 				55C456F720100D0500639369 /* doyouknowdawae.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,11 +400,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				553360BA201E79A5000A85BA /* PageViewController.swift in Sources */,
+				55E7ADD6204218CD00419732 /* Screen6VC.swift in Sources */,
 				553B1E35203F833800CFC009 /* Screen4VC.swift in Sources */,
 				553360C4201E988C000A85BA /* Screen2VC.swift in Sources */,
 				553360CE201FC42F000A85BA /* Screen3VC.swift in Sources */,
 				55C456E32010090D00639369 /* Screen1VC.swift in Sources */,
 				55C456E12010090D00639369 /* AppDelegate.swift in Sources */,
+				553B1E4B2042030D00CFC009 /* Screen5VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

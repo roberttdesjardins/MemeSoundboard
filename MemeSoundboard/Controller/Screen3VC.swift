@@ -14,6 +14,7 @@ class Screen3VC: UIViewController, GADBannerViewDelegate {
     var player: AVAudioPlayer!
     
     @IBOutlet weak var bannerView: GADBannerView!
+    @IBOutlet weak var ohshit: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,11 @@ class Screen3VC: UIViewController, GADBannerViewDelegate {
         bannerView.load(GADRequest())
         //Test ads is ca-app-pub-3940256099942544/2934735716
         bannerView.delegate = self
+        ohshit.titleLabel?.textAlignment = NSTextAlignment.center
+        ohshit.layer.borderWidth = 5
+        ohshit.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        ohshit.layer.cornerRadius = 10
+        
     }
     
     @IBAction func ohshitBtnPressed(_ sender: Any) {
@@ -96,6 +102,30 @@ class Screen3VC: UIViewController, GADBannerViewDelegate {
         }
         player.play()
     }
+    @IBAction func vandarkholmeBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "vandarkholme", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
+    @IBAction func doitBtnPressed(_ sender: Any) {
+        let path = Bundle.main.path(forResource: "doit", ofType: "wav")!
+        let url = URL(fileURLWithPath: path)
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+        } catch let error as NSError {
+            print(error.description)
+        }
+        player.play()
+    }
+    
     
     override func viewDidDisappear(_ animated: Bool) {
         player?.stop()

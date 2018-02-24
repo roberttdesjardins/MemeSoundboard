@@ -14,7 +14,9 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         return [self.newVc(viewController: "sb1"),
                 self.newVc(viewController: "sb2"),
                 self.newVc(viewController: "sb3"),
-                self.newVc(viewController: "sb4")]
+                self.newVc(viewController: "sb4"),
+                self.newVc(viewController: "sb5"),
+                self.newVc(viewController: "sb6")]
     }()
     
     var pageControl = UIPageControl()
