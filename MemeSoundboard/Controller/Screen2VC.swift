@@ -14,14 +14,32 @@ class Screen2VC: UIViewController, GADBannerViewDelegate {
     var player: AVAudioPlayer!
     
     @IBOutlet weak var bannerView: GADBannerView!
+    @IBOutlet weak var kimkardashian: UIButton!
+    @IBOutlet weak var fine: UIButton!
+    @IBOutlet weak var gotcha: UIButton!
+    @IBOutlet weak var run: UIButton!
+    @IBOutlet weak var fallen: UIButton!
+    @IBOutlet weak var yeah: UIButton!
+    @IBOutlet weak var stopit: UIButton!
+    @IBOutlet weak var heff: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bannerView.adUnitID = "ca-app-pub-3719313346160193/1926630270"
+        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         //Test ads is ca-app-pub-3940256099942544/2934735716
         bannerView.delegate = self
+        
+        makeBorderImage(button: kimkardashian)
+        makeBorderImage(button: fine)
+        makeBorderImage(button: gotcha)
+        makeBorderImage(button: run)
+        makeBorderImage(button: fallen)
+        makeBorderImage(button: yeah)
+        makeBorderImage(button: stopit)
+        makeBorderImage(button: heff)
+        
     }
     
     

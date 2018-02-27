@@ -15,18 +15,29 @@ class Screen3VC: UIViewController, GADBannerViewDelegate {
     
     @IBOutlet weak var bannerView: GADBannerView!
     @IBOutlet weak var ohshit: UIButton!
+    @IBOutlet weak var snoop: UIButton!
+    @IBOutlet weak var omae: UIButton!
+    @IBOutlet weak var nani: UIButton!
+    @IBOutlet weak var weed: UIButton!
+    @IBOutlet weak var thuglife: UIButton!
+    @IBOutlet weak var vandarkholme: UIButton!
+    @IBOutlet weak var doit: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bannerView.adUnitID = "ca-app-pub-3719313346160193/1926630270"
+        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         //Test ads is ca-app-pub-3940256099942544/2934735716
         bannerView.delegate = self
-        ohshit.titleLabel?.textAlignment = NSTextAlignment.center
-        ohshit.layer.borderWidth = 5
-        ohshit.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        ohshit.layer.cornerRadius = 10
+        makeBorderText(button: ohshit)
+        makeBorderImage(button: snoop)
+        makeBorderImage(button: omae)
+        makeBorderImage(button: nani)
+        makeBorderImage(button: weed)
+        makeBorderImage(button: thuglife)
+        makeBorderImage(button: vandarkholme)
+        makeBorderImage(button: doit)
         
     }
     

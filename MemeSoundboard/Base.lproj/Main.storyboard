@@ -179,7 +179,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="airhorn" destination="YCJ-D3-xWc" id="yxg-CI-mvq"/>
                         <outlet property="bannerView" destination="QnY-wu-kGN" id="YY4-um-tbG"/>
+                        <outlet property="doyouknowdawae" destination="aeS-Np-yyE" id="PKF-bk-SXV"/>
+                        <outlet property="hitmarker" destination="Wtz-av-D07" id="p7z-gX-ra6"/>
+                        <outlet property="illuminati" destination="AJ6-IA-ELm" id="Ho2-Mc-0DZ"/>
+                        <outlet property="noice" destination="Tdh-Re-wRI" id="43b-vH-HrX"/>
+                        <outlet property="ok" destination="8ik-Kz-CNm" id="PHI-fe-aB6"/>
+                        <outlet property="pranked" destination="63E-s0-J7E" id="u73-0B-bQn"/>
+                        <outlet property="wednesday" destination="sqD-Ms-JKq" id="uRr-ak-ljU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -331,6 +339,14 @@
                     </view>
                     <connections>
                         <outlet property="bannerView" destination="E8A-Rk-W3n" id="nPM-wa-903"/>
+                        <outlet property="fallen" destination="KiI-e1-Tix" id="Waa-vj-9uh"/>
+                        <outlet property="fine" destination="LTz-PK-JsR" id="gMx-BW-VA4"/>
+                        <outlet property="gotcha" destination="cjl-ph-mJI" id="mmJ-Zv-g2K"/>
+                        <outlet property="heff" destination="rIG-9C-jxq" id="A3p-cN-hYl"/>
+                        <outlet property="kimkardashian" destination="gS3-m7-Vyj" id="Udo-HK-AMh"/>
+                        <outlet property="run" destination="nxN-OX-IQP" id="nTk-0V-QV9"/>
+                        <outlet property="stopit" destination="TOe-eG-Lnj" id="T2X-sU-gzS"/>
+                        <outlet property="yeah" destination="GpJ-4n-1uD" id="dP8-eP-BNf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K3r-II-nyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -486,7 +502,14 @@
                     </view>
                     <connections>
                         <outlet property="bannerView" destination="epg-G8-GsA" id="QJS-Xy-ynh"/>
+                        <outlet property="doit" destination="ZBr-jh-b7S" id="LU2-w7-9Tu"/>
+                        <outlet property="nani" destination="Cpd-QH-fmc" id="wwP-Pr-SXr"/>
                         <outlet property="ohshit" destination="gww-kd-UKT" id="q7Q-V1-mxx"/>
+                        <outlet property="omae" destination="X8x-gD-hFb" id="B0v-t7-aUD"/>
+                        <outlet property="snoop" destination="qqh-kL-r9L" id="lzc-Hc-4fw"/>
+                        <outlet property="thuglife" destination="U4R-AU-3jv" id="YBF-zu-M0I"/>
+                        <outlet property="vandarkholme" destination="iFI-9t-rBm" id="TuC-0o-zhA"/>
+                        <outlet property="weed" destination="dsU-sD-is4" id="Cvj-R7-5DZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wMg-h0-0D2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -638,6 +661,14 @@
                     </view>
                     <connections>
                         <outlet property="bannerView" destination="yIx-iV-9KA" id="IOj-Eh-1kF"/>
+                        <outlet property="damnson" destination="pU7-M7-xcg" id="f4W-3O-yNJ"/>
+                        <outlet property="dream" destination="YDN-8B-kBo" id="AC7-Re-6ES"/>
+                        <outlet property="recorder" destination="bIe-B8-aGx" id="Bd7-54-ux4"/>
+                        <outlet property="slap" destination="6Sh-a3-X1Y" id="Hmb-Wd-hle"/>
+                        <outlet property="triple" destination="WZP-1g-wZo" id="Nop-Vi-Hye"/>
+                        <outlet property="violin" destination="0S4-Bw-9UM" id="IRb-Ul-zTs"/>
+                        <outlet property="wombocombo" destination="2fB-cj-fQo" id="ffR-xQ-CRH"/>
+                        <outlet property="wow" destination="OpQ-pa-w7D" id="zof-iE-6vv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="keV-rm-qBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -885,8 +916,14 @@
                     </view>
                     <connections>
                         <outlet property="bannerView" destination="bPL-k4-6OY" id="lVO-YA-2oj"/>
+                        <outlet property="bradberry" destination="J9U-fv-T7M" id="wke-O6-gcB"/>
+                        <outlet property="crickets" destination="UZn-sD-eKC" id="WqJ-R3-E0B"/>
+                        <outlet property="donethat" destination="WGZ-ve-Syt" id="ael-zh-n1N"/>
                         <outlet property="donethis" destination="ntc-67-W2Z" id="3rb-0D-ACI"/>
+                        <outlet property="nope" destination="p9q-lD-PXM" id="uF1-by-bjI"/>
+                        <outlet property="spaghet" destination="Po3-F8-6br" id="Hxv-q8-bDa"/>
                         <outlet property="trombone" destination="4J6-YT-0PZ" id="KuQ-zp-ES4"/>
+                        <outlet property="wrongnumber" destination="hzR-g0-hcT" id="Ghc-RP-eUj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3d-j2-NOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1046,12 +1083,18 @@
                     <connections>
                         <outlet property="bannerView" destination="nbp-IV-bPf" id="g8y-cB-iRs"/>
                         <outlet property="curb" destination="2cS-lt-Lo4" id="Dfe-YT-IPE"/>
+                        <outlet property="hellomf" destination="yCb-1r-ZgB" id="p8I-ke-ukS"/>
+                        <outlet property="johncena" destination="TAB-Ja-OSD" id="g09-Wt-snq"/>
+                        <outlet property="losinghorn" destination="SUg-I3-6gH" id="dhc-d0-Jkf"/>
                         <outlet property="ohmygosh" destination="ZZz-4g-4Ky" id="Hsk-SK-htR"/>
+                        <outlet property="pokemon" destination="ITb-pb-U1l" id="HyQ-ec-abb"/>
+                        <outlet property="rocky" destination="UFb-8V-zkZ" id="4Ld-7f-ioW"/>
+                        <outlet property="seinfeld" destination="yNq-Dy-84t" id="YDV-Dp-icQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnd-AI-bSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3757" y="41"/>
+            <point key="canvasLocation" x="3688" y="41"/>
         </scene>
     </scenes>
     <resources>

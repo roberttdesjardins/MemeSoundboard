@@ -14,27 +14,31 @@ class Screen6VC: UIViewController, GADBannerViewDelegate {
     var player: AVAudioPlayer!
     
     @IBOutlet weak var bannerView: GADBannerView!
+    @IBOutlet weak var pokemon: UIButton!
     @IBOutlet weak var ohmygosh: UIButton!
+    @IBOutlet weak var johncena: UIButton!
+    @IBOutlet weak var losinghorn: UIButton!
     @IBOutlet weak var curb: UIButton!
+    @IBOutlet weak var seinfeld: UIButton!
+    @IBOutlet weak var hellomf: UIButton!
+    @IBOutlet weak var rocky: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bannerView.adUnitID = "ca-app-pub-3719313346160193/1926630270"
+        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         //Test ads is ca-app-pub-3940256099942544/2934735716
         bannerView.delegate = self
         
-        ohmygosh.titleLabel?.textAlignment = NSTextAlignment.center
-        ohmygosh.layer.borderWidth = 5
-        ohmygosh.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        ohmygosh.layer.cornerRadius = 10
-        
-        curb.titleLabel?.textAlignment = NSTextAlignment.center
-        curb.layer.borderWidth = 5
-        curb.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        curb.layer.cornerRadius = 10
-        
+        makeBorderImage(button: pokemon)
+        makeBorderText(button: ohmygosh)
+        makeBorderImage(button: johncena)
+        makeBorderImage(button: losinghorn)
+        makeBorderText(button: curb)
+        makeBorderImage(button: seinfeld)
+        makeBorderImage(button: hellomf)
+        makeBorderImage(button: rocky)
     }
     
     @IBAction func pokemonBtnPressed(_ sender: Any) {
@@ -130,7 +134,6 @@ class Screen6VC: UIViewController, GADBannerViewDelegate {
         player?.stop()
     }
 
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

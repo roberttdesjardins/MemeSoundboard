@@ -39,6 +39,7 @@
 		55819EDD203BAB330072CDC3 /* yeah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EDC203BAB330072CDC3 /* yeah.wav */; };
 		55819EE3203BAB6B0072CDC3 /* noice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55819EE2203BAB6A0072CDC3 /* noice.wav */; };
 		5582D8EF203B7AB60093EAB7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582D8EE203B7AB60093EAB7 /* GoogleMobileAds.framework */; };
+		55B486792045EDB2007736F4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B486782045EDB2007736F4 /* Helpers.swift */; };
 		55C456E12010090D00639369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E02010090D00639369 /* AppDelegate.swift */; };
 		55C456E32010090D00639369 /* Screen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C456E22010090D00639369 /* Screen1VC.swift */; };
 		55C456E62010090D00639369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C456E42010090D00639369 /* Main.storyboard */; };
@@ -107,6 +108,7 @@
 		55819EDC203BAB330072CDC3 /* yeah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yeah.wav; sourceTree = "<group>"; };
 		55819EE2203BAB6A0072CDC3 /* noice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noice.wav; sourceTree = "<group>"; };
 		5582D8EE203B7AB60093EAB7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../../Downloads/GoogleMobileAdsSdkiOS-7.28.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		55B486782045EDB2007736F4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		55C456DD2010090D00639369 /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C456E02010090D00639369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55C456E22010090D00639369 /* Screen1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1VC.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				55C456E92010090D00639369 /* LaunchScreen.storyboard */,
 				55C456EC2010090D00639369 /* Info.plist */,
 				553360B9201E79A5000A85BA /* PageViewController.swift */,
+				55B486782045EDB2007736F4 /* Helpers.swift */,
 			);
 			path = MemeSoundboard;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				553360BA201E79A5000A85BA /* PageViewController.swift in Sources */,
+				55B486792045EDB2007736F4 /* Helpers.swift in Sources */,
 				55E7ADD6204218CD00419732 /* Screen6VC.swift in Sources */,
 				553B1E35203F833800CFC009 /* Screen4VC.swift in Sources */,
 				553360C4201E988C000A85BA /* Screen2VC.swift in Sources */,
